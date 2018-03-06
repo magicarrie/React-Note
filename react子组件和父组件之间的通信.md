@@ -1,10 +1,14 @@
-```
-React子组件和父组件通信包括以下几个方面：
+### React子组件和父组件通信包括以下几个方面：
 
-1、子组件获取父组件属性：props或者state
-2、子组件调用父组件的方法
-3、父组件获取子组件的属性：props或者state
-4、父组件调用子组件的方法
+##### 1、子组件获取父组件属性：props或者state
+
+##### 2、子组件调用父组件的方法
+
+#####  3、父组件获取子组件的属性：props或者state
+
+##### 4、父组件调用子组件的方法
+
+```
 class Child extends Component{
     constructor(props) {
       super(props);
